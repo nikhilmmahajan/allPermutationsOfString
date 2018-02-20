@@ -13,6 +13,7 @@ void permute( string soFar, string rest)
             string remaining = rest.substr(0, i) + rest.substr(i + 1, rest.size());
             permute(next, remaining);
         }
+
     }
 }
 
